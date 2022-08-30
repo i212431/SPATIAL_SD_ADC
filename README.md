@@ -10,3 +10,6 @@
 ## Please fill in your project documentation in this README.md file 
 
 Pin list is placed in pin list directory. 
+GDS is in GDS Directory.
+Spice file is in NETGEN Directory
+Mag file is in MAG Directory
