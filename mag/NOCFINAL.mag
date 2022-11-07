@@ -1,0 +1,127 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1667803582
+<< nwell >>
+rect -630 259 -39 580
+rect 311 259 830 580
+<< locali >>
+rect -1250 427 -1150 450
+rect -1250 393 -1207 427
+rect -1173 393 -1150 427
+rect -1250 360 -1150 393
+rect -460 300 -290 340
+rect 570 300 680 340
+rect -460 253 -420 300
+rect -553 213 -420 253
+rect -70 220 45 261
+rect 218 218 368 263
+rect 640 256 680 300
+rect 530 251 565 252
+rect 564 217 565 251
+rect 640 216 765 256
+rect 1384 240 1418 253
+rect 1384 219 1430 240
+rect 1390 160 1430 219
+<< viali >>
+rect -1207 393 -1173 427
+rect -293 219 -259 253
+rect 530 217 564 251
+<< metal1 >>
+rect -1230 490 1570 590
+rect -1250 431 -1150 450
+rect -1250 379 -1226 431
+rect -1174 427 -1150 431
+rect -1173 393 -1150 427
+rect -1174 379 -1150 393
+rect -1250 360 -1150 379
+rect 580 276 660 280
+rect -305 253 -230 263
+rect 580 260 594 276
+rect -305 219 -293 253
+rect -259 219 -230 253
+rect -305 213 -230 219
+rect -300 206 -230 213
+rect 510 251 594 260
+rect 510 217 530 251
+rect 564 224 594 251
+rect 646 224 660 276
+rect 564 217 660 224
+rect 510 210 660 217
+rect 1370 226 1440 260
+rect -300 154 -286 206
+rect -234 154 -230 206
+rect -300 140 -230 154
+rect 1370 174 1384 226
+rect 1436 174 1440 226
+rect 1370 140 1440 174
+rect -1230 -50 1570 50
+<< via1 >>
+rect -1226 427 -1174 431
+rect -1226 393 -1207 427
+rect -1207 393 -1174 427
+rect -1226 379 -1174 393
+rect 594 224 646 276
+rect -286 154 -234 206
+rect 1384 174 1436 226
+<< metal2 >>
+rect -1250 435 -1150 450
+rect -1250 431 630 435
+rect -1250 379 -1226 431
+rect -1174 385 630 431
+rect -1174 379 -1150 385
+rect -1250 360 -1150 379
+rect 580 280 630 385
+rect 580 276 660 280
+rect -300 206 -230 260
+rect 580 224 594 276
+rect 646 224 660 276
+rect 580 210 660 224
+rect 1370 226 1440 260
+rect -300 154 -286 206
+rect -234 170 -230 206
+rect 1370 174 1384 226
+rect 1436 174 1440 226
+rect 1370 170 1440 174
+rect -234 154 1440 170
+rect -300 110 1440 154
+use sky130_fd_sc_hd__clkdlybuf4s50_1  sky130_fd_sc_hd__clkdlybuf4s50_1_0
+timestamp 1667803582
+transform 1 0 708 0 1 -2
+box -38 -48 774 592
+use sky130_fd_sc_hd__clkdlybuf4s50_1  sky130_fd_sc_hd__clkdlybuf4s50_1_1
+timestamp 1667803582
+transform -1 0 -496 0 1 -2
+box -38 -48 774 592
+use sky130_fd_sc_hd__clkinv_1  sky130_fd_sc_hd__clkinv_1_0
+timestamp 1667803582
+transform 1 0 0 0 1 0
+box -38 -48 314 592
+use sky130_fd_sc_hd__nor2_1  sky130_fd_sc_hd__nor2_1_0
+timestamp 1667803582
+transform -1 0 594 0 1 -2
+box -38 -48 314 592
+use sky130_fd_sc_hd__nor2_1  sky130_fd_sc_hd__nor2_1_1
+timestamp 1667803582
+transform 1 0 -322 0 1 -2
+box -38 -48 314 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0
+timestamp 1667803582
+transform 1 0 1478 0 1 -2
+box -38 -48 130 592
+<< labels >>
+rlabel metal2 s 1400 200 1400 200 4 PH1
+port 1 nsew
+rlabel metal2 s 1400 140 1400 140 4 PH1
+port 1 nsew
+rlabel metal2 s -1220 410 -1220 410 4 PH2
+port 2 nsew
+rlabel metal2 s -1140 410 -1140 410 4 PH2
+port 2 nsew
+rlabel locali s -10 240 -10 240 4 CLK
+port 3 nsew
+rlabel metal1 s -410 570 -410 570 4 VDD
+port 4 nsew
+rlabel metal1 s 630 10 630 10 4 VSS
+port 5 nsew
+<< end >>

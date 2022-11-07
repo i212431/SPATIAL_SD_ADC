@@ -1,0 +1,279 @@
+timestamp 1667803582
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_01v8_H73VBR sky130_fd_pr__nfet_01v8_H73VBR_0 1 0 200 0 1 2136
+use sky130_fd_pr__cap_mim_m3_1_MJDHVK sky130_fd_pr__cap_mim_m3_1_MJDHVK_0 -1 0 1149 0 1 -3033
+use T_Gate T_Gate_1 1 0 2642 0 1 0
+use T_Gate T_Gate_0 -1 0 -358 0 -1 2004
+port "VOUT" 3 3702 446 3702 446 m3
+port "VGND" 1 579 2304 579 2304 m2
+port "PH2" 2 488 1990 488 1990 m1
+node "m2_n805_234#" 2 3119.52 -805 234 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8968 422 66220 1114 1734787 14618 0 0 0 0
+node "VOUT" 1 1276.05 3702 446 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19388 558 255435 3322 246800 2868 0 0 0 0
+node "m1_1800_1285#" 2 499.236 1800 1285 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20004 886 109762 1934 0 0 0 0 0 0 0 0
+node "m1_64_1507#" 2 660.117 64 1507 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23565 922 209568 2722 0 0 0 0 0 0 0 0
+node "m1_n22_1907#" 2 338.006 -22 1907 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22464 1086 107474 2158 0 0 0 0 0 0 0 0
+node "VGND" 1 187.716 579 2304 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12635 646 50350 1250 0 0 0 0 0 0 0 0
+node "PH2" 4 430.443 488 1990 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66424 2980 0 0 0 0 0 0 0 0 0 0
+node "a_23_1798#" 246 236.034 23 1798 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22242 806 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_41_2408#" 245 235.442 41 2408 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22176 804 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_n22_1907#" "m1_64_1507#" 37.4447
+cap "a_41_2408#" "m1_64_1507#" 2.25406
+cap "PH2" "m1_n22_1907#" 156.685
+cap "PH2" "a_41_2408#" 19.0902
+cap "a_41_2408#" "m1_n22_1907#" 2.42617
+cap "m1_1800_1285#" "VOUT" 17.1631
+cap "a_23_1798#" "VGND" 2.43168
+cap "m1_1800_1285#" "m1_64_1507#" 1.84927
+cap "VGND" "m1_64_1507#" 1.9956
+cap "PH2" "VGND" 96.4366
+cap "a_23_1798#" "m1_64_1507#" 9.10519
+cap "PH2" "a_23_1798#" 21.2857
+cap "m1_n22_1907#" "VGND" 61.1876
+cap "a_41_2408#" "VGND" 4.64474
+cap "m1_n22_1907#" "a_23_1798#" 6.05499
+cap "a_41_2408#" "a_23_1798#" 9.38235
+cap "PH2" "m1_64_1507#" 43.6666
+cap "VOUT" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" 129.823
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 8.88385
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 10.9364
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "T_Gate_0/A" 8.85218
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/CLKB" 95.8335
+cap "T_Gate_0/CLKB" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 0.634873
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "T_Gate_0/A" 1.57907
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/a_62_609#" 3.09664
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/Y" "T_Gate_0/A" 1.10643
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 125.19
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" "T_Gate_0/A" 1.87562
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/Y" 0.00128747
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 12.8962
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" 24.0115
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/Y" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 7.62071
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/A" 25.1563
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" 50.8247
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "T_Gate_0/CLKB" 0.626547
+cap "T_Gate_0/A" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 1.86061
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/Y" "T_Gate_0/CLKB" 0.502011
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" "T_Gate_0/CLKB" 0.828596
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 25.3647
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 119.036
+cap "T_Gate_1/VSS" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 88.3464
+cap "T_Gate_1/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 13.4794
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/CLKB" 61.582
+cap "T_Gate_1/VDD" "PH2" 6.06263
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_0/A" 7.69094
+cap "T_Gate_1/VSS" "T_Gate_1/CLKB" 54.2252
+cap "VGND" "T_Gate_1/VSS" 0.363634
+cap "T_Gate_1/CLKB" "T_Gate_0/A" 5.29702
+cap "T_Gate_1/VDD" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 84.7335
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 14.2886
+cap "T_Gate_1/VSS" "T_Gate_0/CLKB" 21.5348
+cap "T_Gate_1/VDD" "T_Gate_1/CLKB" 10.5627
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/CLKB" 42.6212
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "PH2" 4.03734
+cap "VGND" "T_Gate_1/VDD" 4.33979
+cap "T_Gate_1/CLKB" "PH2" 0.910839
+cap "T_Gate_0/A" "T_Gate_0/CLKB" -0.74648
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 27.3479
+cap "T_Gate_1/VSS" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 53.021
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/CLKB" 5.40978
+cap "T_Gate_1/VDD" "T_Gate_0/CLKB" 4.00962
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/VSS" 222.641
+cap "VGND" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 3.5683
+cap "T_Gate_0/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 16.9046
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/A" 25.8856
+cap "T_Gate_1/VSS" "T_Gate_0/A" 29.7703
+cap "VGND" "T_Gate_1/CLKB" 0.549301
+cap "T_Gate_1/VDD" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 61.7221
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/VDD" 143.105
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_0/CLKB" 20.6958
+cap "T_Gate_1/VSS" "T_Gate_1/VDD" 144.475
+cap "T_Gate_1/VSS" "PH2" 0.592991
+cap "T_Gate_1/CLKB" "T_Gate_0/CLKB" 3.39117
+cap "T_Gate_1/VDD" "T_Gate_0/A" -1.89708
+cap "VOUT" "T_Gate_1/VSS" 0.529247
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/VDD" 103.286
+cap "T_Gate_0/A" "T_Gate_1/VDD" 0.0531043
+cap "T_Gate_1/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 31.2761
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_0/CLKB" 13.2745
+cap "T_Gate_1/CLKB" "T_Gate_1/VDD" 13.6778
+cap "T_Gate_0/A" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 0.0301885
+cap "T_Gate_1/CLKB" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 0.133915
+cap "T_Gate_1/CLKB" "T_Gate_0/CLKB" 2.65847
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 134.369
+cap "T_Gate_1/CLKB" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 72.8695
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "T_Gate_1/VDD" 65.582
+cap "T_Gate_1/VDD" "T_Gate_1/B" 3.05877
+cap "T_Gate_0/A" "T_Gate_1/VSS" 0.0309858
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/VDD" 0.0912963
+cap "T_Gate_1/VDD" "T_Gate_0/CLKB" 0.742863
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/VSS" 154.237
+cap "T_Gate_1/B" "T_Gate_0/CLKB" 0.0731194
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "T_Gate_0/CLKB" 5.96596
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/VDD" 237.719
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/B" 8.15334
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 56.5066
+cap "T_Gate_1/CLKB" "T_Gate_1/VSS" 4.03325
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 0.0573628
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_0/CLKB" 45.761
+cap "VOUT" "T_Gate_1/CLKB" 0.523175
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "T_Gate_1/VSS" 60.0154
+cap "T_Gate_1/VDD" "T_Gate_1/VSS" 28.8811
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/VSS" 0.0718275
+cap "T_Gate_1/VSS" "T_Gate_0/CLKB" 15.087
+cap "VOUT" "T_Gate_1/VDD" 1.8107
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/VSS" 51.6191
+cap "VOUT" "T_Gate_0/CLKB" 0.0755021
+cap "VOUT" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 16.5072
+cap "T_Gate_0/A" "T_Gate_1/CLKB" 0.0677707
+cap "T_Gate_1/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" 43.5888
+cap "T_Gate_1/VSS" "VOUT" 29.0766
+cap "T_Gate_1/CLKB" "VOUT" 50.0186
+cap "T_Gate_1/B" "VOUT" 272.129
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "VOUT" 152.891
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "VOUT" 130.898
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/VSS" 12.5753
+cap "T_Gate_1/VDD" "VOUT" 44.3795
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/CLKB" 12.8537
+cap "VOUT" "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" 0.639073
+cap "T_Gate_1/CLKB" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 0.970565
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/B" 126.003
+cap "T_Gate_1/VSS" "T_Gate_1/VDD" 0.201474
+cap "T_Gate_1/B" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 4.98233
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 103.399
+cap "T_Gate_1/CLKB" "T_Gate_1/VDD" 1.49435
+cap "T_Gate_1/CLKB" "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" 0.0270364
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "T_Gate_1/VDD" 17.8815
+cap "T_Gate_1/B" "T_Gate_1/VDD" -0.336021
+cap "T_Gate_1/VDD" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 0.396743
+cap "T_Gate_1/B" "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" 1.71363
+cap "VOUT" "T_Gate_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" 0.16466
+cap "VOUT" "T_Gate_1/B" 31.9436
+cap "VOUT" "T_Gate_1/a_44_0#" 13.241
+cap "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "VOUT" 187.326
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/a_62_609#" 3.69225
+cap "PH2" "T_Gate_0/A" 0.666578
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "T_Gate_0/A" 0.832091
+cap "VGND" "T_Gate_0/a_62_609#" 0.768521
+cap "VGND" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 0.209361
+cap "T_Gate_0/CLKB" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" 0.518287
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/A" 0.398059
+cap "T_Gate_0/a_62_609#" "T_Gate_0/A" -0.0207099
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 0.121735
+cap "PH2" "T_Gate_0/a_62_609#" 0.650853
+cap "PH2" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 1.12349
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 1.46209
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "T_Gate_0/a_62_609#" 0.919745
+cap "VGND" "T_Gate_0/A" 0.108311
+cap "T_Gate_0/CLKB" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 1.85159
+cap "T_Gate_1/VSS" "T_Gate_1/VDD" 52.0654
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/CLKB" 12.5478
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/CLKB" 1.58542
+cap "T_Gate_1/VSS" "PH2" 140.987
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 59.8704
+cap "T_Gate_1/VDD" "T_Gate_0/A" -10.0313
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 0.24525
+cap "VGND" "T_Gate_0/CLKB" 5.2262
+cap "PH2" "T_Gate_0/A" 3.84216
+cap "T_Gate_1/VSS" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 69.5814
+cap "VGND" "T_Gate_1/CLKB" 0.570487
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 0.0502904
+cap "PH2" "T_Gate_1/VDD" 78.3881
+cap "VGND" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 18.8128
+cap "T_Gate_0/CLKB" "T_Gate_1/CLKB" 0.422809
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_0/A" -0.69234
+cap "T_Gate_0/CLKB" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 7.91488
+cap "T_Gate_1/VSS" "VGND" 33.3398
+cap "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "T_Gate_1/VDD" 32.957
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/CLKB" 18.5304
+cap "PH2" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 229.792
+cap "T_Gate_1/VSS" "T_Gate_0/CLKB" 84.6432
+cap "T_Gate_1/VSS" "T_Gate_1/CLKB" 6.93728
+cap "VGND" "T_Gate_0/A" 0.362301
+cap "T_Gate_1/VSS" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 103.491
+cap "T_Gate_0/CLKB" "T_Gate_0/A" -12.0039
+cap "VGND" "T_Gate_1/VDD" 11.1985
+cap "PH2" "VGND" 90.5306
+cap "T_Gate_0/CLKB" "T_Gate_1/VDD" 15.0539
+cap "T_Gate_0/A" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" -13.1353
+cap "PH2" "T_Gate_0/CLKB" 16.409
+cap "PH2" "T_Gate_1/CLKB" 3.95946
+cap "T_Gate_1/VDD" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 72.5697
+cap "T_Gate_1/VSS" "T_Gate_0/A" 21.9973
+cap "VGND" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" 24.4888
+cap "PH2" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 43.6086
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/CLKB" 47.333
+cap "T_Gate_1/VSS" "T_Gate_1/B" 13.4817
+cap "T_Gate_1/VDD" "T_Gate_0/CLKB" 14.7868
+cap "T_Gate_0/CLKB" "VOUT" 3.09721
+cap "T_Gate_1/VSS" "T_Gate_1/CLKB" 33.8484
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/VDD" 198.744
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "VOUT" 12.0759
+cap "T_Gate_1/VDD" "T_Gate_1/B" 9.59076
+cap "T_Gate_1/VSS" "T_Gate_1/VDD" 55.7408
+cap "T_Gate_1/VSS" "VOUT" 3.95831
+cap "T_Gate_1/VDD" "T_Gate_1/CLKB" 2.44627
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 0.0456818
+cap "T_Gate_0/CLKB" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" 0.328989
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" 0.0887998
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_0/CLKB" 56.9502
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" 1.67227
+cap "T_Gate_1/VDD" "VOUT" 3.04409
+cap "T_Gate_1/VSS" "T_Gate_0/CLKB" 3.63774
+cap "T_Gate_1/B" "T_Gate_0/CLKB" 6.22807
+cap "T_Gate_1/VSS" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" 0.00249807
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/B" 28.28
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/VSS" 71.9617
+cap "T_Gate_1/CLKB" "T_Gate_0/CLKB" 3.25008
+cap "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" "T_Gate_1/CLKB" 0.474974
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/B" 63.1923
+cap "VOUT" "T_Gate_1/B" 6.00698
+cap "T_Gate_0/VSS" "T_Gate_1/B" 29.586
+cap "T_Gate_1/VDD" "T_Gate_1/B" 43.7034
+cap "T_Gate_1/CLKB" "T_Gate_1/B" -0.974975
+cap "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" "T_Gate_1/B" 42.4803
+cap "VOUT" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" 5.1301
+cap "VOUT" "T_Gate_0/VSS" 1.84957
+cap "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/CLKB" 0.713159
+cap "VOUT" "T_Gate_1/VDD" 4.03782
+cap "VOUT" "T_Gate_1/CLKB" 3.59491
+cap "T_Gate_0/VSS" "T_Gate_1/CLKB" 0.201422
+cap "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/Y" "VOUT" 2.81265
+cap "T_Gate_1/VDD" "T_Gate_1/CLKB" 0.757114
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n323_n424#" "T_Gate_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "T_Gate_0/VSUBS" "T_Gate_1/VSUBS"
+merge "T_Gate_1/VSUBS" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/VSUBS"
+merge "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/VSUBS" "VSUBS"
+merge "T_Gate_0/B" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" -1502.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16146 -978 -12606 -704 0 0 -17296 -468 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/m3_n2950_n2900#" "m2_n805_234#"
+merge "m2_n805_234#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_159_n250#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_159_n250#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n33_n250#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n33_n250#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n221_n250#" "m1_n22_1907#"
+merge "T_Gate_1/A" "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" -848.915 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19388 -558 0 0 -24552 -916 0 0 0 0
+merge "sky130_fd_pr__cap_mim_m3_1_MJDHVK_0/c1_n2850_n2800#" "VOUT"
+merge "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/VPWR" "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/VPB" -2500.89 0 0 0 0 -173584 -4720 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75072 -4484 -211968 -4608 0 0 0 0 0 0 0 0 0 0
+merge "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/VPB" "T_Gate_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR"
+merge "T_Gate_1/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "T_Gate_0/VDD"
+merge "T_Gate_0/VDD" "T_Gate_1/VDD"
+merge "T_Gate_0/VSS" "T_Gate_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" -1229.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23565 -922 0 0 0 0 0 0 0 0 0 0
+merge "T_Gate_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VGND" "T_Gate_1/VSS"
+merge "T_Gate_1/VSS" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND"
+merge "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VGND" "m1_64_1507#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_15_n338#" "PH2" -578.918 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -17904 -1328 0 0 0 0 -10672 -832 0 0 0 0 0 0 0 0 0 0
+merge "PH2" "a_23_1798#"
+merge "a_23_1798#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_111_272#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_111_272#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n177_n338#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n177_n338#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n81_272#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n81_272#" "a_41_2408#"
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_63_n250#" "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n129_n250#" -87.8729 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8740 -564 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_H73VBR_0/a_n129_n250#" "VGND"
+merge "T_Gate_0/sky130_fd_sc_hd__clkinv_16_0/A" "T_Gate_1/m1_n758_653#" -1442.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -17748 -858 0 0 0 0 0 0 0 0 0 0
+merge "T_Gate_1/m1_n758_653#" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A"
+merge "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/A" "m1_1800_1285#"
+merge "T_Gate_0/sky130_fd_sc_hd__tapvpwrvgnd_1_0/VPWR" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPWR" "T_Gate_1/sky130_fd_sc_hd__clkinv_16_0/VPB"

@@ -1,0 +1,69 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1667803582
+<< error_p >>
+rect -29 91 29 97
+rect -29 57 -17 91
+rect -29 51 29 57
+<< pwell >>
+rect -201 -219 201 219
+<< nmos >>
+rect -15 -81 15 19
+<< ndiff >>
+rect -73 -14 -15 19
+rect -73 -48 -61 -14
+rect -27 -48 -15 -14
+rect -73 -81 -15 -48
+rect 15 -14 73 19
+rect 15 -48 27 -14
+rect 61 -48 73 -14
+rect 15 -81 73 -48
+<< ndiffc >>
+rect -61 -48 -27 -14
+rect 27 -48 61 -14
+<< psubdiff >>
+rect -175 159 175 193
+rect -175 -159 -141 159
+rect 141 -159 175 159
+rect -175 -193 175 -159
+<< poly >>
+rect -33 91 33 107
+rect -33 57 -17 91
+rect 17 57 33 91
+rect -33 41 33 57
+rect -15 19 15 41
+rect -15 -107 15 -81
+<< polycont >>
+rect -17 57 17 91
+<< locali >>
+rect -175 159 175 193
+rect -175 -159 -141 159
+rect -33 57 -17 91
+rect 17 57 33 91
+rect -61 -14 -27 23
+rect -61 -85 -27 -48
+rect 27 -14 61 23
+rect 27 -85 61 -48
+rect 141 -159 175 159
+rect -175 -193 175 -159
+<< viali >>
+rect -17 57 17 91
+rect -61 -48 -27 -14
+rect 27 -48 61 -14
+<< metal1 >>
+rect -29 91 29 97
+rect -29 57 -17 91
+rect 17 57 29 91
+rect -29 51 29 57
+rect -67 -14 -21 19
+rect -67 -48 -61 -14
+rect -27 -48 -21 -14
+rect -67 -81 -21 -48
+rect 21 -14 67 19
+rect 21 -48 27 -14
+rect 61 -48 67 -14
+rect 21 -81 67 -48
+<< properties >>
+string FIXED_BBOX -158 -176 158 176
+<< end >>

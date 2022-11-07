@@ -9,7 +9,9 @@
 
 ## Please fill in your project documentation in this README.md file 
 
-Pin list is placed in pin list directory. 
-GDS is in GDS Directory.
-Spice file is in NETGEN Directory
-Mag file is in MAG Directory
+
+Self Interference Cancellation Low Noise Amplifier 
+Gain greater than 20 dB 
+Self interference Cancellation greater than 20 dB 
+Noise Figure less than 4 dB 
+Area is around 0.1 mm square
